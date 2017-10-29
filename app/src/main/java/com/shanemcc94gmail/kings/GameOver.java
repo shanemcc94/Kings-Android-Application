@@ -21,7 +21,7 @@ import java.io.File;
 import java.io.FileOutputStream;
 import java.io.OutputStream;
 import java.util.Random;
-
+//Adding a comment to check VCS
 
 public class GameOver extends Activity {
 
@@ -81,6 +81,7 @@ public class GameOver extends Activity {
         if(requestCode == REQUEST_IMAGE_CAPTURE && resultCode == RESULT_OK){
            //Means Image was taken without error
             Bundle extras = data.getExtras();
+            assert extras != null;
             Bitmap photo = (Bitmap)extras.get("data");
             //Converts Photo info to bitmap
             viewPic.setImageBitmap(photo);
@@ -105,6 +106,7 @@ public class GameOver extends Activity {
                 output = new FileOutputStream(file);
 
                 // Compress into png format image from 0% - 100%
+                assert photo != null;
                 photo.compress(Bitmap.CompressFormat.JPEG, 100, output);
                 output.flush();
                 output.close();

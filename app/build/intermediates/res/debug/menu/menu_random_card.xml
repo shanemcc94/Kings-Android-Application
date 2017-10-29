@@ -5,4 +5,4 @@
     <item android:id="@+id/action_settings" android:title="@string/action_settings"
         android:orderInCategory="100" app:showAsAction="never" />
 </menu>
-<!-- From: file:/C:/Users/Shanemcc94/AndroidStudioProjects/Kings/app/src/main/res/menu/menu_random_card.xml -->
+<!-- From: file:/C:/Users/shane/Documents/Android%20Projects/Kings/app/src/main/res/menu/menu_random_card.xml -->

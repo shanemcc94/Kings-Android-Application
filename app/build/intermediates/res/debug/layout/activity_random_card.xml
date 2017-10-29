@@ -1,0 +1,78 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="vertical" >
+
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:text="@string/next_card"
+        android:textSize="20sp"
+        android:id="@+id/button"
+        android:layout_marginBottom="51dp"
+
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="20dp"
+        android:focusable="false"
+        android:visibility="visible" />
+
+    <ImageButton
+        android:layout_width="135dp"
+        android:layout_height="150dp"
+        android:scaleType="fitXY"
+        android:adjustViewBounds="true"
+        android:id="@+id/cardButton"
+        android:background="@null"
+        android:layout_above="@+id/rulesText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="41dp" />
+
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:text="@string/ran_car_back"
+        android:textSize="20sp"
+        android:id="@+id/back"
+
+        android:layout_alignTop="@+id/button"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginEnd="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/kings_remain"
+        android:id="@+id/textView2"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#FFFFFF"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/cards_remaining"
+        android:id="@+id/textView4"
+        android:textColor="#FFFFFF"
+        android:layout_above="@+id/button"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/rulesText"
+        android:textColor="#FFFFFF"
+        android:layout_above="@+id/button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="117dp" />
+
+</RelativeLayout>
+<!-- From: file:/C:/Users/Shanemcc94/AndroidStudioProjects/Kings/app/src/main/res/layout/activity_random_card.xml -->

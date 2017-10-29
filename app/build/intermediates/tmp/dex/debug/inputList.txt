@@ -1,0 +1,5 @@
+C:\Users\Shanemcc94\AndroidStudioProjects\Kings\app\build\intermediates\classes\debug
+C:\Users\Shanemcc94\AndroidStudioProjects\Kings\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-3423d123bc9b8e68f19cd279399f0474cc8c42f2.jar
+C:\Users\Shanemcc94\AndroidStudioProjects\Kings\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-dd8e5213fe234e46722fa2cf983fd67d3bd7fb9e.jar
+C:\Users\Shanemcc94\AndroidStudioProjects\Kings\app\build\intermediates\pre-dexed\debug\classes-e6c6a8e58de7edfa0ebb8d02c5e6dc0479e16454.jar
+C:\Users\Shanemcc94\AndroidStudioProjects\Kings\app\build\intermediates\pre-dexed\debug\classes-157971f81736835a50a0244736278f5e6e0fc1b1.jar

@@ -1,4 +1,5 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#000000"
@@ -12,34 +13,36 @@
         android:id="@+id/backButton"
         android:layout_marginBottom="25dp"
         android:layout_alignParentBottom="true"
-        android:layout_alignLeft="@+id/textView3"
-        android:layout_alignStart="@+id/textView3" />
+        android:layout_alignLeft="@+id/GameOverHeading"
+        android:layout_alignStart="@+id/GameOverHeading"
+        />
 
 
     <TextView
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:textAppearance="?android:attr/textAppearanceLarge"
-    android:text="@string/rules_explanation_text01"
-    android:textColor="#ffffff"
-    android:textSize="40sp"
-    android:id="@+id/textView3"
-    android:layout_marginTop="50dp"
-    android:layout_alignParentTop="true"
-    android:layout_centerHorizontal="true" />
-
-    <TextView
+        android:id="@+id/GameOverHeading"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="48dp"
+        android:text="@string/rules_explanation_text01"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:textColor="#ffffff"
-        android:textSize="30sp"
-        android:text="@string/rules_Text"
+        android:textSize="40sp" />
+
+    <TextView
         android:id="@+id/text_explanation_on_screen"
-        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_below="@+id/GameOverHeading"
         android:layout_centerHorizontal="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="50dp"
+        android:text="@string/rules_Text"
+        android:textColor="#ffffff"
+        android:textSize="20sp"/>
+
 
 
 </RelativeLayout>

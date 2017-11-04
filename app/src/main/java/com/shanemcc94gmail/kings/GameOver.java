@@ -75,7 +75,7 @@ public class GameOver extends Activity {
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
-        TextView textElement01 = (TextView) findViewById(R.id.textView5);
+        TextView textElement01 = (TextView) findViewById(R.id.GameOverText);
         textElement01.setText(" ");
 
         if(requestCode == REQUEST_IMAGE_CAPTURE && resultCode == RESULT_OK){

@@ -4,37 +4,28 @@
     android:background="#000000"
     android:orientation="vertical" >
 
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text=""
-        android:id="@+id/textView"
-        android:layout_gravity="center_vertical" />
-
     <ImageView
         android:id="@+id/imageView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/main_menu"
-        android:layout_below="@+id/textView"
+
         android:layout_centerHorizontal="true"
         android:contentDescription="@string/mainLogo" />
 
     <Button
+        android:id="@+id/new_button"
         android:layout_width="110dp"
         android:layout_height="wrap_content"
-        android:text="@string/newGame"
-        android:id="@+id/new_button"
-        android:layout_gravity="bottom"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
 
-        android:maxWidth="60dp"
-        android:minHeight="60dp"
+        android:layout_gravity="bottom"
         android:maxHeight="70dp"
         android:maxLength="70"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true" />
+        android:maxWidth="60dp"
+        android:minHeight="60dp"
+        android:text="@string/newGame" />
 
     <Button
         style="?android:attr/buttonStyleSmall"

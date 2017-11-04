@@ -3,13 +3,10 @@
     android:layout_height="match_parent"
     android:background="#000000"
     android:orientation="vertical" >
-
-
-
     <Button
+        android:text="@string/game_over_main"
         android:layout_width="110dp"
         android:layout_height="wrap_content"
-        android:text="@string/game_over_main"
         android:id="@+id/mainMenu"
         android:layout_below="@+id/camButton"
         android:layout_alignLeft="@+id/camButton"
@@ -18,9 +15,9 @@
         android:layout_alignEnd="@+id/camButton" />
 
     <Button
+        android:text="@string/game_over_cam"
         android:layout_width="110dp"
         android:layout_height="wrap_content"
-        android:text="@string/game_over_cam"
         android:id="@+id/camButton"
         android:onClick="launchCamera"
         android:layout_below="@+id/viewPic"
@@ -30,44 +27,46 @@
         android:layout_alignEnd="@+id/viewPic" />
 
     <TextView
+        android:text="@string/game_over_text01"
+        android:id="@+id/GameOverHeading"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="@string/game_over_text01"
-        android:textColor="#ffffff"
-        android:id="@+id/textView3"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="39dp"
+
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#ffffff"
+        android:textSize="35dp"/>
 
     <TextView
+        android:text="@string/gameOverText"
+        android:id="@+id/GameOverText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="@string/gameOverText"
-        android:textColor="#ffffff"
-        android:id="@+id/textView5"
-        android:gravity="center"
-        android:layout_alignTop="@+id/viewPic"
-        android:layout_alignLeft="@+id/viewPic"
-        android:layout_alignStart="@+id/viewPic"
         android:layout_above="@+id/camButton"
-        android:layout_alignRight="@+id/viewPic"
         android:layout_alignEnd="@+id/viewPic"
+        android:layout_alignLeft="@+id/viewPic"
+        android:layout_alignRight="@+id/viewPic"
+        android:layout_alignStart="@+id/viewPic"
+        android:layout_alignTop="@+id/viewPic"
+        android:gravity="center"
+        android:maxHeight="120dp"
         android:maxWidth="200dp"
-        android:minWidth="200dp"
         android:minHeight="120dp"
-        android:maxHeight="120dp" />
+        android:minWidth="200dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#ffffff" />
 
     <ImageView
+        android:id="@+id/viewPic"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/viewPic"
-        android:minHeight="250dp"
-        android:minWidth="250dp"
-
-        android:layout_below="@+id/textView3"
+        android:layout_below="@+id/GameOverHeading"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="41dp"
-        android:contentDescription="@string/photo" />
+        android:contentDescription="@string/photo"
+        android:minHeight="250dp"
+        android:minWidth="250dp" />
 
 </RelativeLayout>

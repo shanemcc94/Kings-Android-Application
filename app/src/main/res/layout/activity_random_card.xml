@@ -6,43 +6,44 @@
     android:orientation="vertical" >
 
 
-    <Button
-        android:layout_width="150dp"
-        android:layout_height="70dp"
-        android:text="@string/next_card"
-        android:textSize="20sp"
-        android:id="@+id/button"
-        android:layout_marginBottom="51dp"
-
-        android:layout_alignParentBottom="true"
-        android:layout_marginLeft="20dp"
-        android:focusable="false"
-        android:visibility="visible" />
-
     <ImageButton
-        android:layout_width="135dp"
-        android:layout_height="150dp"
-        android:scaleType="fitXY"
-        android:adjustViewBounds="true"
         android:id="@+id/cardButton"
-        android:background="@null"
+        android:layout_width="200dp"
+        android:layout_height="275dp"
         android:layout_above="@+id/rulesText"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="41dp" />
+        android:layout_alignEnd="@+id/textView4"
+        android:layout_alignRight="@+id/textView4"
+        android:adjustViewBounds="true"
+        android:background="@null"
+        android:contentDescription="TODO"
+        android:scaleType="fitXY" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="34dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:text="@string/next_card"
+        android:textSize="20sp" />
 
 
     <Button
+        android:id="@+id/back"
         android:layout_width="150dp"
         android:layout_height="70dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView4"
+        android:layout_marginLeft="21dp"
+        android:layout_marginStart="21dp"
         android:text="@string/ran_car_back"
-        android:textSize="20sp"
-        android:id="@+id/back"
+        android:textSize="20sp" />
 
-        android:layout_alignTop="@+id/button"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginRight="20dp"
-        android:layout_marginEnd="15dp" />
 
     <TextView
         android:layout_width="wrap_content"
